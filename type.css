@@ -1,0 +1,42 @@
+h1,h2,h3, body{
+    font-family: apercu;
+    font-weight: 400;
+    font-size: 21px;
+}
+.text-meta{
+    font-family: apercu mono;
+    font-weight: 300;
+    font-size: 12.5px;
+    letter-spacing: 1px;
+}
+
+p{
+    display: block;
+    margin-block-start: .75em;
+    margin-block-end: .75em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+a{
+    color: #49FF7C;
+    text-decoration-style: dotted;
+    text-decoration-thickness: .2px;
+    text-underline-offset: 3px;
+    text-decoration-color: rgba(73, 255, 123, .25);
+}
+
+a:hover {
+    text-decoration-style: solid;
+    cursor: ne-resize;
+    text-decoration-color: rgba(73, 255, 123, 1);
+
+}
+
+li{
+    display: block;
+    margin-block-start: .5em;
+    margin-block-end: .5em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}

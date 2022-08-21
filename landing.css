@@ -1,0 +1,62 @@
+html, body {
+    background-color: #354A39;
+    color: #49FF7C;
+    padding: 0;
+}
+
+body{
+    padding: .5em;
+}
+
+#logo {
+    margin-bottom: 2em;
+    height: 86px;
+}
+
+/* Flex stuff */
+.wrapper {
+    display: flex;  
+    flex-flow: row wrap;
+    align-items: flex-end;
+    padding-bottom: 1em;
+    height: 96vh;
+  }
+  
+    .wrapper > * {
+        padding: 2%;
+        flex: 1 100%;
+    }
+  
+    .header{
+        display: none;
+    }
+
+    .footer{
+        display: none;
+    }
+   
+    .main {
+        text-align: left;
+    }
+   
+    .aside-1 {
+        text-align: left;
+        align-content: left;
+    }
+
+    .aside-2 {
+        text-align: right;
+        align-content: right;
+    }
+  
+    @media all and (min-width: 600px) {
+        .aside { flex: 1 0 0; }
+    }
+  
+    @media all and (min-width: 800px) {
+        .main    { flex: 3 0px; }
+        .aside-1 { order: 1; } 
+        .main    { order: 2; }
+        .aside-2 { order: 3; }
+        .footer  { order: 4; }
+    }
