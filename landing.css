@@ -1,14 +1,16 @@
-html, body {
-    /*  background-color: #354A39;
-    color: #49FF7C; */
-    
-    background: linear-gradient(0deg, #33733D -9.86%, #253528 100%);
+html{
     border-bottom: 4px solid #49FF7C;
+}
+
+html, body {
+    background-color: #33733D;
+    color: #49FF7C; 
     padding: 0;
 }
 
 body{
     padding: .5em;
+    background: linear-gradient(0deg, #33733D -9.86%, #253528 100%);
 }
 
 #logo {
