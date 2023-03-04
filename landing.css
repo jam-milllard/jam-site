@@ -74,11 +74,11 @@ svg {
         background-color: #111;
     }
     body {
-        background: radial-gradient(107.49% 111.57% at 45.03% 139.45%, #4E8202 0%, #253528 99.99%, #253528 100%);
-        color: #BDFF00;
+/*         background: radial-gradient(107.49% 111.57% at 45.03% 139.45%, #4E8202 0%, #253528 99.99%, #253528 100%);
+        color: #BDFF00; */
 
-        /* background: radial-gradient(109.93% 118.46% at 45.03% 147.36%, #33733D 0%, #253528 99.99%, rgba(37, 53, 40, 0) 100%), #253528;
-        color: #49FF7C; */
+        background: radial-gradient(109.93% 118.46% at 45.03% 147.36%, #33733D 0%, #253528 99.99%, rgba(37, 53, 40, 0) 100%), #253528;
+        color: #49FF7C;
     }
 }
 @media (prefers-color-scheme: light) {
