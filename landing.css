@@ -1,6 +1,9 @@
 html, body {
-    background-color: #354A39;
-    color: #49FF7C;
+    /*  background-color: #354A39;
+    color: #49FF7C; */
+    
+    background: linear-gradient(0deg, #33733D -9.86%, #253528 100%);
+    border-bottom: 4px solid #49FF7C;
     padding: 0;
 }
 
