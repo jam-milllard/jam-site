@@ -2,12 +2,16 @@ h1,h2,h3, body{
     font-family: apercu;
     font-weight: 400;
     font-size: 21px;
+    line-height: 130%;
 }
+
 .text-meta{
-    font-family: apercu-mono;
+    font-family: apercu mono;
     font-weight: 300;
     font-size: 12.5px;
     letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 130%;
 }
 
 p{
@@ -19,18 +23,17 @@ p{
 }
 
 a{
-    color: #49FF7C;
+    color: currentColor;
     text-decoration-style: dotted;
     text-decoration-thickness: .2px;
     text-underline-offset: 3px;
-    text-decoration-color: rgba(73, 255, 123, .25);
+    text-decoration-color: currentColor;
 }
 
 a:hover {
     text-decoration-style: solid;
     cursor: ne-resize;
-    text-decoration-color: rgba(73, 255, 123, 1);
-
+    text-decoration-color: currentColor;
 }
 
 li{
