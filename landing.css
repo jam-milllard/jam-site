@@ -1,5 +1,5 @@
 html, body {
-    background-color: #314734;
+    background-color: #354A39;
     color: #49FF7C;
     padding: 0;
     margin: 0;
@@ -71,22 +71,20 @@ svg {
 /* System theming */
 @media (prefers-color-scheme: dark) {
     html {
-        background-color: #111;
+        background-color: #D29C32;
     }
     body {
-/*         background: radial-gradient(107.49% 111.57% at 45.03% 139.45%, #4E8202 0%, #253528 99.99%, #253528 100%);
-        color: #BDFF00; */
 
-        background: radial-gradient(109.93% 118.46% at 45.03% 147.36%, #33733D 0%, #253528 99.99%, rgba(37, 53, 40, 0) 100%), #253528;
-        color: #49FF7C;
+        background: #D29C32;
+        color: #610909;
     }
 }
 @media (prefers-color-scheme: light) {
     html { 
-        background-color: #fff;
+        background-color: #354A39;
     }
     body {
-       background: radial-gradient(107.03% 107.03% at 45.03% -16.02%, #BDFF00 0%, #E7FFA0 51.33%, #FFFFFF 100%);
-       color: #5B713A;
+       background: #354A39;
+       color: #49FF7C;
     }
 }
