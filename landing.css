@@ -69,7 +69,7 @@ svg {
 
 
 /* System theming */
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
     html {
         background-color: #D29C32;
     }
@@ -79,7 +79,7 @@ svg {
         color: #610909;
     }
 }
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: dark) {
     html { 
         background-color: #354A39;
     }
