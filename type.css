@@ -9,7 +9,6 @@ h1,h2,h3, body{
     font-family: apercu mono;
     font-weight: 300;
     font-size: 12.5px;
-    letter-spacing: 1px;
     text-transform: uppercase;
     line-height: 130%;
 }
@@ -23,6 +22,8 @@ p{
 }
 
 a{
+    font-family: apercu mono;
+    letter-spacing: 1px;
     color: currentColor;
     text-decoration-style: dotted;
     text-decoration-thickness: .2px;
