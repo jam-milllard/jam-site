@@ -71,12 +71,12 @@ svg {
 /* System theming */
 @media (prefers-color-scheme: light) {
     html {
-        background-color: #DA9A1F;
+        background-color: #BDFF00;
     }
     body {
 
-        background: #DA9A1F;
-        color: #4A0505;
+        background: #BDFF00;
+        color: #09280E;
     }
 }
 @media (prefers-color-scheme: dark) {
