@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'apercu';
-    src: url('jam-milllard/ApercuMedium.otf') format('otf');
+    src: url('jam-site/ApercuMedium.otf') format('otf');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: 'apercu-mono';
-    src: url('jam-milllard/ApercuMono.otf') format('otf');
+    src: url('jam-site/ApercuMono.otf') format('otf');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
