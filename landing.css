@@ -8,6 +8,11 @@ html, body {
     overflow-x: hidden;
 }
 
+body {
+    margin: 20px;
+    border-radius: 10px;
+}
+
 #logo {
     margin-bottom: 2em;
     height: 86px;
