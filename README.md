@@ -1,2 +1,2 @@
 # jam-site
-Temporary portfolio site
+"Temporary" portfolio site
