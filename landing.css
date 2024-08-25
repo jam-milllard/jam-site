@@ -1,5 +1,5 @@
 html, body {
-    background-color: #354A39;
+    background-color: #FFF9F1;
     color: #49FF7C;
     padding: 0;
     margin: 0;
@@ -71,20 +71,17 @@ svg {
 /* System theming */
 @media (prefers-color-scheme: light) {
     html {
-        background-color: #BDFF00;
+        background-color: #FFF9F1;
     }
     body {
-
-        background: #BDFF00;
-        color: #09280E;
+        color: #D13644;
     }
 }
 @media (prefers-color-scheme: dark) {
     html { 
-        background-color: #09280E;
+        background-color: #D13644;
     }
     body {
-       background: #09280E;
-       color: #49FF7C;
+       color: #FFF9F1;
     }
 }
