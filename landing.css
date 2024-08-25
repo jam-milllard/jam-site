@@ -80,11 +80,12 @@ svg {
         color: #D13644;
     }
 }
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
     html { 
         background-color: #D13644;
     }
     body {
        color: #FFF9F1;
     }
+*/
 }
