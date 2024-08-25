@@ -24,7 +24,6 @@ p{
 
 a{
     font-family: 'apercu-mono', monospace;
-    
     text-transform: uppercase;
     color: currentColor;
     text-decoration-style: dotted;
@@ -35,7 +34,7 @@ a{
 
 a:hover {
     text-decoration-style: solid;
-    cursor: ne-resize;
+    cursor: alias;
     text-decoration-color: currentColor;
 }
 
