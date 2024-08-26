@@ -5,7 +5,7 @@
 .tooltip span {
 	display: none;
 	position: absolute;
-	bottom: calc(100% + .7rem);
+	bottom: calc(100% - 1.1rem);
   	left: 50%;
   	transform: translateX(-50%);
 	box-shadow: 0px 0px 25px rgba(226, 226, 226, 0.6);
