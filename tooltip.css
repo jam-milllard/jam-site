@@ -5,8 +5,8 @@
 .tooltip span {
 	display: none;
 	position: absolute;
-	bottom: calc(100% - 1.1rem);
-  	left: 50%;
+	bottom: calc(100% - 3rem);
+  	left: 80%;
   	transform: translateX(-50%);
 	box-shadow: 0px 0px 25px rgba(226, 226, 226, 0.6);
 	padding: 8px 8px 20px 8px;
@@ -19,7 +19,7 @@
 .tooltip:hover span {
 	display: block;
    	opacity: .96;
-	rotate: 3deg;
+	rotate: 10deg;
 }
 
 span video {
