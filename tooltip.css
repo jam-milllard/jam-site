@@ -19,7 +19,7 @@
 .tooltip:hover span {
 	display: block;
    	opacity: .96;
-	rotate: 2deg;
+	rotate: 3deg;
 }
 
 span video {
