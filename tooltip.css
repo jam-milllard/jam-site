@@ -30,5 +30,6 @@ span video {
 
 span img {
 	width: 420px;
-    object-fit: cover;
+	height: 100%;
+    	object-fit: cover;
 }
