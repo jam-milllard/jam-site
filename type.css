@@ -36,6 +36,7 @@ a:hover {
     text-decoration-style: solid;
     cursor: alias;
     text-decoration-color: currentColor;
+    text-decoration-thickness: 2px;
 }
 
 li{
