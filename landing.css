@@ -40,7 +40,7 @@ svg {
     }
    
     .main {
-        text-align: left;
+        text-align: center;
     }
    
     .aside-1 {
@@ -55,6 +55,11 @@ svg {
 
     
 /* Flex resize */
+@media all and (max-width: 600px) {
+    .aside-1 {display: none;}
+    .wrapper {height: 100%; margin-bottom: 4vh;}
+}
+
 @media all and (min-width: 600px) {
     .aside { flex: 1 0 0; }
 }
