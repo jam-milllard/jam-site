@@ -6,9 +6,9 @@
 .tooltip span {
 	display: none;
 	position: absolute;
-    bottom: calc(100% + .7rem);
-    left: 50%;
-    transform: translateX(-50%);
+	bottom: calc(100% + .7rem);
+  	left: 50%;
+  	transform: translateX(-50%);
 	box-shadow: 0px 0px 25px rgba(226, 226, 226, 0.6);
 	padding: 8px 8px 20px 8px;
 	border-radius: 18px;
@@ -18,14 +18,14 @@
 }
 .tooltip:hover span {
 	display: block;
-    opacity: .96;
+   	opacity: .96;
 	rotate: 2deg;
 }
 
 span video {
 	width: 420px;
 	border-radius: 12px;
-	margin-bottom: 24px;
+	margin-bottom: 18px;
 }
 
 span img {
