@@ -1,7 +1,6 @@
 .tooltip{
 	position: relative;
 	display: inline-block;
-	transition: all 2s;
 }
 .tooltip span {
 	display: none;
@@ -15,6 +14,7 @@
 	opacity: 0;
 	background-color: #fff;
 	rotate: 0deg;
+	transition: all 2s;
 }
 .tooltip:hover span {
 	display: block;
